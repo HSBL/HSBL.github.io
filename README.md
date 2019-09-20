@@ -1,4 +1,5 @@
-# HSBL.github.io
+# https://hsbl.github.io/
+
    This is my blog journal at programming
 
 ## Week 1
@@ -21,4 +22,3 @@
    In the end, this website is the outcome. Hosted at github, and remotely updated via terminal.
 
 ## Week 2
-https://hsbl.github.io/
