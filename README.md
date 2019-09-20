@@ -14,7 +14,7 @@
 
 ### Git
 
-   Version control is a fundamental know how for colaborative coding. With Github and a lot of contributors, even a large scale project can be torn into smaller bits.
+   Version control is a fundamental know how for colaborative coding. With Github and a lot of contributors, even a large scalegit project can be torn into smaller bits.
 
 ### End of Week
 
