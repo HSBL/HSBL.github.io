@@ -21,3 +21,4 @@
    In the end, this website is the outcome. Hosted at github, and remotely updated via terminal.
 
 ## Week 2
+https://hsbl.github.io/
