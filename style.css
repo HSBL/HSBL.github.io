@@ -1,7 +1,44 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid lightgreen;
+}
+
+body {
+  background-color: black;
+  color: gray;
+}
+
+header {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.branding {
+  float: left;
+}
+
+.branding img,
+.branding p,
+header li {
+  display: inline-block;
+}
+
+header ul {
+  float: right;
+  border: 1px solid red;
+}
+
+.videoBg1 video {
+  width: 100vw;
 }
 
 h3 {
   color: darkslategray;
+}
+
+footer {
+  text-align: center;
 }
