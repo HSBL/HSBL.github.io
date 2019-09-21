@@ -2,41 +2,161 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid lightgreen;
+  /* For layouting purpose, use border for all items */
+  /* border: 1px solid lightgreen; */
 }
 
 body {
   background-color: black;
   color: gray;
+  font-family: "Ubuntu", sans-serif;
 }
+
+/* Header style */
 
 header {
   position: fixed;
+  z-index: 999;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
 }
 
 .branding {
   float: left;
+  margin: 10px;
+  margin-left: 3vw;
 }
 
-.branding img,
-.branding p,
+.branding a {
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+
+.branding p {
+  float: right;
+  margin: 5px 10px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
 header li {
   display: inline-block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  font-weight: bold;
 }
 
 header ul {
   float: right;
-  border: 1px solid red;
+  margin: 10px;
+  margin-right: 5vw;
+}
+
+/* Video Background and Name */
+
+#video {
+  position: relative;
 }
 
 .videoBg1 video {
   width: 100vw;
 }
+.myName {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  padding: 2% 5%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: rgba(0, 0, 0, 0.8);
+}
 
-h3 {
+/* Social */
+
+.social {
+  padding: 5%;
+  text-align: center;
+}
+
+.socialTag {
+  display: inline-block;
+  text-align: center;
+  margin: 0 3vw;
+}
+
+.socialTag img {
+  width: 100px;
+}
+
+/* Blog */
+
+.container {
+  margin: 20px auto 0 auto;
+  width: 80%;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+.weekHeader {
   color: darkslategray;
+  padding-left: 5%;
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+.insideImg img {
+  width: 200px;
+}
+
+.floatLeft {
+  float: left;
+  margin: 0 2% 0.1% 0;
+}
+
+.floatRight {
+  float: right;
+  margin: 0 2% 0.1% 0;
+}
+
+.weekly .paragraph {
+  padding: 2% 2% 5% 2%;
+  font-family: "PT Serif", serif;
+}
+
+.firstParagraph::first-letter {
+  font-size: 4.5em;
+  float: left;
+  margin-right: 0.1em;
+  margin-top: 0.1em;
+  line-height: 0.5em;
+  color: aquamarine;
+}
+
+.weekly blockquote {
+  font-size: 2em;
+  text-align: center;
+  quotes: "“" "”" "‘" "’";
+  font-style: italic;
+  font-family: "PT Serif", serif;
+}
+
+.weekly blockquote::before {
+  content: open-quote;
+}
+
+.weekly blockquote::after {
+  content: close-quote;
+}
+
+.subHeader {
+  padding-left: 4%;
+  font-size: 1.2em;
 }
 
 footer {
