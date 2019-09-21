@@ -21,6 +21,11 @@ header {
   width: 100%;
 }
 
+header:hover {
+  background-color: rgba(95, 21, 21, 0.1);
+  transition: 300ms;
+}
+
 .branding {
   float: left;
   margin: 10px;
@@ -39,6 +44,7 @@ header {
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bolder;
+  color: limegreen;
 }
 
 header li {
@@ -77,11 +83,22 @@ header ul {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.myName span {
+  color: limegreen;
+}
+
 /* Social */
 
 .social {
-  padding: 5%;
+  margin: 5%;
+  padding: 1%;
   text-align: center;
+  border-radius: 10vw;
+}
+
+.social:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 300ms;
 }
 
 .socialTag {
@@ -108,10 +125,11 @@ header ul {
   padding-left: 5%;
   margin: 10px 0;
   font-size: 1.5em;
+  margin-bottom: 6vh;
 }
 
 .insideImg img {
-  width: 200px;
+  width: 250px;
 }
 
 .floatLeft {
@@ -121,7 +139,7 @@ header ul {
 
 .floatRight {
   float: right;
-  margin: 0 2% 0.1% 0;
+  margin: 0 0 0.1% 2%;
 }
 
 .weekly .paragraph {
@@ -135,15 +153,20 @@ header ul {
   margin-right: 0.1em;
   margin-top: 0.1em;
   line-height: 0.5em;
-  color: aquamarine;
+  color: darkslategray;
 }
 
 .weekly blockquote {
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
   quotes: "“" "”" "‘" "’";
   font-style: italic;
   font-family: "PT Serif", serif;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 3% 15%;
+  padding: 1%;
+  border-radius: 3vh;
+  color: darkslategray;
 }
 
 .weekly blockquote::before {
@@ -156,7 +179,9 @@ header ul {
 
 .subHeader {
   padding-left: 4%;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  color: darkslategray;
+  margin-bottom: 3vh;
 }
 
 footer {
